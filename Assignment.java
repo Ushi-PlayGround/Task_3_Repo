@@ -26,6 +26,7 @@ public class Assignment{
             int age = scanner.nextInt();
 
             if ((age >= 10) && (age <= 18)) {
+                
                 scanner.nextLine();
                 correctAge = age;
                 System.out.print("Enter Your Subject1: ");
